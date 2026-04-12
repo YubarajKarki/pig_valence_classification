@@ -108,7 +108,7 @@ optimizer = torch.optim.SGD(
 
 # Automatically halve LR when val loss plateaus (mimics the paper's manual LR schedule)
 scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(
-    optimizer, mode="min", factor=0.2, patience=Config.PATIENCE, verbose=True
+    optimizer, mode="min", factor=0.2, patience=Config.PATIENCE,
 )
 
 
