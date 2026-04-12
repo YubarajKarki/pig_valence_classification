@@ -5,6 +5,8 @@ from **raw audio waveforms** using a PyTorch re-implementation of **SampleCNN**
 (Lee et al., 2017).
 
 ---
+## Soundwel dataset [download](https://data.niaid.nih.gov/resources?id=zenodo_8252482)
+
 
 ## Why raw waveform instead of spectrogram?
 
